@@ -1,0 +1,28 @@
+// Required to get $orange variable
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+$primary: $indigo-200; // Set the $primary variable
+
+// Merge with existing $theme-colors map
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    'primary': $primary
+  )
+);
+
+// Set changes
+@import 'bootstrap';
+
+// Global overrides and styles
+* {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}

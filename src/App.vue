@@ -10,7 +10,7 @@
       >
         <i class="bi bi-list"></i>
       </button>
-      <h1>Krypt Pad</h1>
+      <h1 class="text-primary">Krypt Pad</h1>
     </header>
 
     <div id="content-wrapper" class="d-flex h-100 pb-3">
